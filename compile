@@ -1,0 +1,5 @@
+echo "It worked"
+g++ -c main.cpp
+g++ /home/paul/'My game'/main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+./sfml-app
+
